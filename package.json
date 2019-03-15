@@ -1,4 +1,7 @@
 {
 	"name": "kibana-time-plugin",
-	"version": "kibana"
+	"version": "kibana",
+	"dependencies": {
+		"angularjs-datepicker": "^2.1.23"
+	}
 }

@@ -5,6 +5,7 @@ import 'plugins/kibana-time-plugin/lib/angular-bootstrap/js/carousel.js';
 import 'plugins/kibana-time-plugin/bower_components/bootstrap-addons/dist/css/bootstrap-addons.css';
 import 'plugins/kibana-time-plugin/bower_components/bootstrap-addons/dist/js/bootstrap-addons.js';
 import 'plugins/kibana-time-plugin/time.less';
+import 'plugins/kibana-time-plugin/datepicker.less';
 import 'plugins/kibana-time-plugin/timeController';
 import { VisFactoryProvider } from 'ui/vis/vis_factory';
 import { CATEGORY } from 'ui/vis/vis_category';
@@ -30,6 +31,7 @@ function TimeVisProvider(Private) {
           enable_relative: true,
           enable_absolut: true,
           enable_animation: true,
+          hide_calendar: true
       }
     },
     editorConfig: {
